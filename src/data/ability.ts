@@ -110,7 +110,7 @@ export class Ability implements Localizable {
   }
 
   partial(): this {
-    this.nameAppend += " (Ptest)";
+    this.nameAppend += " (P)";
     return this;
   }
 
