@@ -61,7 +61,7 @@ export class Ability implements Localizable {
   }
 
   /**
-   * Get all the ability attributes that match `attrType`
+   * Get all ability attributes that match `attrType`
    * @param attrType any attribute that extends {@linkcode AbAttr}
    * @returns Array of attributes that match `attrType`, Empty Array if none match.
    */
@@ -110,7 +110,7 @@ export class Ability implements Localizable {
   }
 
   partial(): this {
-    this.nameAppend += " (P)";
+    this.nameAppend += " (Ptest)";
     return this;
   }
 
